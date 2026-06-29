@@ -1,0 +1,26 @@
+{
+  "include": [
+    "kicky-public",
+    "omarchy-project-scratchpads",
+    "claude-plugins-kicky",
+    "prisma-supabase-guard",
+    "bgm",
+    "gnome-monitor-switcher",
+    "claude-user-input-logger",
+    "omarchy-skill",
+    "battle-test",
+    "sauna-booking-automation"
+  ],
+  "descriptions": {
+    "kicky-public": "Public source for essays, build notes, and operator field reports.",
+    "omarchy-project-scratchpads": "Project-specific Hyprland scratchpads with tmux session sync for Omarchy.",
+    "claude-plugins-kicky": "Personal Claude Code plugin marketplace and agent workflow experiments.",
+    "prisma-supabase-guard": "Claude Code plugin guarding against Prisma and Supabase migration drift.",
+    "bgm": "CLI for Brave browser tab groups and bookmarks.",
+    "gnome-monitor-switcher": "Fast GNOME/Wayland monitor switching with gdctl.",
+    "claude-user-input-logger": "Claude Code hook for session input logging and traceability.",
+    "omarchy-skill": "Agent skill notes for operating Omarchy as a daily-driver OS.",
+    "battle-test": "Battle-test harness for websocket scenarios.",
+    "sauna-booking-automation": "Python automation for collecting availability and booking sauna appointments."
+  }
+}

@@ -19,6 +19,8 @@ jobs:
         with:
           node-version: 22
       - run: node scripts/build-readme.mjs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
       - name: Commit generated README
         run: |
           if ! git diff --quiet; then
