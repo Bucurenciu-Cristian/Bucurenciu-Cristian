@@ -1,0 +1,12 @@
+[
+  {
+    "name": "kicky-public",
+    "url": "https://github.com/Bucurenciu-Cristian/kicky-public",
+    "description": "Public source for essays, build notes, and operator field reports."
+  },
+  {
+    "name": "claude-plugins-kicky",
+    "url": "https://github.com/Bucurenciu-Cristian/claude-plugins-kicky",
+    "description": "Public Claude plugin experiments and agent workflow pieces."
+  }
+]
