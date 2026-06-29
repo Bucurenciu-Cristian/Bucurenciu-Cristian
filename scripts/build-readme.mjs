@@ -4,7 +4,7 @@ import path from 'node:path';
 
 const root = process.cwd();
 const contentIndexUrl = process.env.CONTENT_INDEX_URL || 'https://raw.githubusercontent.com/Bucurenciu-Cristian/kicky-public/main/public/content-index.json';
-const localContentIndex = path.resolve(root, '../kicky-public/public/content-index.json');
+const localContentIndex = process.env.CONTENT_INDEX_FILE || path.resolve(root, '../kicky-public/public/content-index.json');
 
 function getJson(url) {
   return new Promise((resolve, reject) => {
@@ -40,15 +40,20 @@ function formatItems(items, type, limit) {
 }
 
 let content = { items: [] };
-try {
-  content = await getJson(contentIndexUrl);
-} catch (error) {
-  console.warn(`Remote content index unavailable: ${error.message}`);
+if (process.env.CI !== 'true') {
   try {
     content = JSON.parse(await readFile(localContentIndex, 'utf8'));
     console.warn(`Used local content index: ${localContentIndex}`);
   } catch (localError) {
     console.warn(`Local content index unavailable: ${localError.message}`);
+  }
+}
+
+if (!content.items.length) {
+  try {
+    content = await getJson(contentIndexUrl);
+  } catch (error) {
+    console.warn(`Remote content index unavailable: ${error.message}`);
   }
 }
 

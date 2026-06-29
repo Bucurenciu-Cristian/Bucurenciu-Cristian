@@ -4,7 +4,7 @@ Building owned-stack systems for agent-first work. Local-first tools, self-hoste
 
 ### Public notes
 <!-- public_notes starts -->
-- Nothing public yet.
+- [Get out of our heads](https://github.com/Bucurenciu-Cristian/kicky-public/blob/main/content/notes/2026-06-29-get-out-of-our-heads.md) — A small public commitment to ship thinking as artifacts, not keep it private by default. (2026-06-29)
 <!-- public_notes ends -->
 More in [kicky-public](https://github.com/Bucurenciu-Cristian/kicky-public).
 
