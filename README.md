@@ -16,6 +16,8 @@ More in [kicky-public](https://github.com/Bucurenciu-Cristian/kicky-public).
 
 ### Recent releases
 <!-- releases starts -->
+[pi-fnox v0.1.0](https://github.com/Bucurenciu-Cristian/pi-fnox/releases/tag/v0.1.0) - 2026-07-03
+
 [omarchy-project-scratchpads v1.0.0](https://github.com/Bucurenciu-Cristian/omarchy-project-scratchpads/releases/tag/v1.0.0) - 2026-03-27
 <!-- releases ends -->
 More [public releases](https://github.com/Bucurenciu-Cristian?tab=repositories&sort=updated).
