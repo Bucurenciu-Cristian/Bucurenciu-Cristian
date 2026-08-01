@@ -34,7 +34,7 @@ More [public releases](https://github.com/Bucurenciu-Cristian?tab=repositories&s
 | [claude-plugins-kicky](https://github.com/Bucurenciu-Cristian/claude-plugins-kicky) | Personal Claude Code plugin marketplace and agent workflow experiments. |  |
 | [prisma-supabase-guard](https://github.com/Bucurenciu-Cristian/prisma-supabase-guard) | Claude Code plugin guarding against Prisma and Supabase migration drift. |  |
 | [bgm](https://github.com/Bucurenciu-Cristian/bgm) | CLI for Brave browser tab groups and bookmarks. |  |
-| [gnome-monitor-switcher](https://github.com/Bucurenciu-Cristian/gnome-monitor-switcher) | Fast GNOME/Wayland monitor switching with gdctl. | 1 |
+| [gnome-monitor-switcher](https://github.com/Bucurenciu-Cristian/gnome-monitor-switcher) | Fast GNOME/Wayland monitor switching with gdctl. |  |
 | [claude-user-input-logger](https://github.com/Bucurenciu-Cristian/claude-user-input-logger) | Claude Code hook for session input logging and traceability. | 4 |
 | [omarchy-skill](https://github.com/Bucurenciu-Cristian/omarchy-skill) | Agent skill notes for operating Omarchy as a daily-driver OS. |  |
 | [battle-test](https://github.com/Bucurenciu-Cristian/battle-test) | Battle-test harness for websocket scenarios. |  |
